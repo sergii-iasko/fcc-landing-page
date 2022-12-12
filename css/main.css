@@ -1,0 +1,143 @@
+#page-content {
+  position: relative;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.booking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 100px;
+}
+
+.booking__title {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+.booking input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+.booking input[type='submit'] {
+  max-width: 350px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #f1c40f;
+}
+
+.booking input[type='submit']:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
+.features {
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+.features-item {
+    display: flex;
+      align-items: center;
+  justify-content: center;
+}
+
+.features-item__icon {
+    padding-right: 20px;
+}
+
+.features-item__icon img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  color: darkorange;
+}
+
+.features-item__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+
+#how-it-works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#how-it-works > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+.pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pricing__product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.pricing__product-room {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.pricing__product-title {
+  margin-top: 15px;
+}
+
+.room__list {
+  margin: 15px 0;
+}
+
+.room__list-item {
+  padding: 5px 0;
+}
+
+.pricing__product button {
+  border: 0;
+    border-radius: 40px;
+  margin: 15px 0;
+  background-color: #ADD8E6;
+  font-weight: 400;
+}
+
+.pricing__product button:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+

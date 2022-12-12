@@ -1,0 +1,22 @@
+footer {
+  margin-top: 30px;
+  background-color: #4169E1;
+  padding: 20px;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer__list-item {
+  padding: 0 10px;
+}
+
+.footer__terms {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: ghostwhite;
+}
